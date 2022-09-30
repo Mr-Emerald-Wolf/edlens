@@ -26,7 +26,7 @@ export default function About() {
                     <h1 className="text-4xl md:text-4xl z-30 lg:text-2xl mb-[5rem] text-left font-bold dark:text-slate-300 text-pale">
                         A web based Augmented Reality Platform
                     </h1>
-                    <button class="rounded-md text-xl bg-red-400 p-4">Scan Now</button>
+                    <a href='localhost:3001' class="rounded-md text-xl bg-red-400 p-4">Scan Now</a>
 
                     <motion.svg className='  absolute top-[30%] left-[70%]' width="20rem" height="20rem" viewBox="-24.28 0 119.673 119.673" xmlns="http://www.w3.org/2000/svg">
                         <motion.g variants={icon}
