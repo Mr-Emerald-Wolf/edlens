@@ -21,18 +21,18 @@ export default function Tech() {
             }} className="sm:text-4xl text-3xl font-medium title-font m-4 text-pale  text-center" >
               Tech Used
             </h1>
-            <div className="grid grid-cols-3 gap-4 justify-items-center">
+            <div className="grid grid-cols-3 p-4 px-[4rem] justify-items-center">
               {tech.map((tech) => (
-                <div key={tech} className="p-4">
-                  <div className=" bg-pale rounded-md flex p-4 h-full items-center shadow-md">
-                    <div className="grid grid-rows-2">
-                      <div className="flex">
+                <div key={tech} className="p-2">
+                  <div className=" bg-pale rounded-md p-4 h-full items-center shadow-md">
+                    <div className="grid grid-rows">
+                      <div className="flex p-2">
                         <CheckBadgeIcon className="text-red-400 w-8 h-8 flex-shrink-0 mr-4" />
                         <span className="title-font text-xl font-medium text-slate-700">
                           {tech}
                         </span>
                       </div>
-                      <p className="text-red-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum praesentium est aperiam odit consectetur facere blanditiis porro hic veniam. Vitae nisi nam quae fuga consectetur aliquam quis distinctio recusandae.</p>
+                      <p className="text-red-400 px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum praesentium est aperiam odit consectetur facere blanditiis porro hic veniam. Vitae nisi nam quae fuga consectetur aliquam quis distinctio recusandae.</p>
                     </div>
 
                   </div>
