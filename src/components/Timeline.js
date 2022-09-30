@@ -5,7 +5,7 @@ export default function RoadMap() {
       {/* <!-- component --> */}
       <div class="bg-hero bg-pale p-5" id=''>
         
-         <h1 className="sm:text-4xl text-3xl font-medium title-font m-4 text-blueTheme dark:text-sky-200 text-center" >
+         <h1 className="sm:text-4xl text-3xl font-medium title-font m-4 text-blueTheme  text-center" >
           Roadmap
         </h1>
         <div class="relative wrap overflow-hidden p-10 h-full">
