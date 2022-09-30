@@ -8,7 +8,7 @@ export default function Navbar({ fixed }) {
     <>
       <header className="bg-slate-800  p-1 z-50 top-0 md:sticky">
                     <div className="container flex justify-between mx-auto">
-                        <a rel="noopener noreferrer" href="#landing" aria-label="Back to homepage" className="flex items-center p-1 text-2xl text-red-500">
+                        <a rel="noopener noreferrer" href="#landing" aria-label="Back to homepage" className="flex items-center p-1 font-bold text-3xl text-red-500">
                             EdLens
                         </a>
                         <div className="flex flex-grow items-center justify-end"></div>       

@@ -23,7 +23,7 @@ export default function AboutApp() {
                                 transform: isInView ? "none" : "translateX(-200px)",
                                 opacity: isInView ? 1 : 0,
                                 transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-                            }} className="sm:text-6xl text-3xl font-medium title-font m-4 md:mb-2 md:pb-4 text-slate-700 " >
+                            }} className="sm:text-6xl text-3xl font-medium title-font m-4 md:mb-2 md:pb-4 mt-[2rem] text-slate-700 " >
                                 EdLens
                             </h1>
                             <p style={{
