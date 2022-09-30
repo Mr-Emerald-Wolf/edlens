@@ -21,7 +21,7 @@ export default function Tech() {
             }} className="sm:text-5xl text-3xl font-medium title-font m-4 mt-[3rem] text-pale  text-center" >
               Tech Used
             </h1>
-            <div className="grid grid-cols-3 gap-4 p-4 px-[4rem] justify-items-center">
+            <div className="grid md:grid-cols-3 grid-rows gap-4 p-4 px-[4rem] justify-items-center">
               {tech.map((tech) => (
                 <div key={tech} className="p-2">
                   <div className=" bg-pale rounded-md p-4 h-full items-center shadow-md">
