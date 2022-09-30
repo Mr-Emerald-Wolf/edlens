@@ -12,7 +12,7 @@ export default function Tech() {
   return (
     <>
       <section ref={ref} id='tech'>
-        <div className="grid content-center h-[35rem] bg-slate-700 ">
+        <div className="grid content-center min-h-screen bg-slate-700 ">
           <div className="mb-6 ">
             <h1 style={{
               transform: isInView ? "none" : "translateX(-200px)",
@@ -21,14 +21,20 @@ export default function Tech() {
             }} className="sm:text-4xl text-3xl font-medium title-font m-4 text-pale  text-center" >
               Tech Used
             </h1>
-            <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            <div className="grid grid-cols-3 gap-4 justify-items-center">
               {tech.map((tech) => (
-                <div key={tech} className="p-2 sm:w-1/2 w-full">
-                  <div className=" bg-pale rounded flex p-4 h-full items-center shadow-md">
-                    <CheckBadgeIcon className="text-red-400 w-6 h-6 flex-shrink-0 mr-4" />
-                    <span className="title-font font-medium text-slate-700">
-                      {tech}
-                    </span>
+                <div key={tech} className="p-4">
+                  <div className=" bg-pale rounded-md flex p-4 h-full items-center shadow-md">
+                    <div className="grid grid-rows-2">
+                      <div className="flex">
+                        <CheckBadgeIcon className="text-red-400 w-8 h-8 flex-shrink-0 mr-4" />
+                        <span className="title-font text-xl font-medium text-slate-700">
+                          {tech}
+                        </span>
+                      </div>
+                      <p className="text-red-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum praesentium est aperiam odit consectetur facere blanditiis porro hic veniam. Vitae nisi nam quae fuga consectetur aliquam quis distinctio recusandae.</p>
+                    </div>
+
                   </div>
                 </div>
               ))}

@@ -18,8 +18,8 @@ export default function RoadMap() {
               <h1 class="mx-auto text-white font-semibold text-lg ">1</h1>
             </div>
             <div class="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4">
-              <h3 class="mb-3 font-bold text-slate-700 text-xl">Lorem Ipsum</h3>
-              <p class="text-sm font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <h3 class="mb-3 font-bold text-slate-700 text-2xl">Lorem Ipsum</h3>
+              <p class=" font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           </div>
 
@@ -30,8 +30,8 @@ export default function RoadMap() {
               <h1 class="mx-auto font-semibold text-lg text-white">2</h1>
             </div>
             <div class="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4">
-              <h3 class="mb-3 font-bold text-slate-700 text-xl">Lorem Ipsum</h3>
-              <p class="text-sm leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <h3 class="mb-3 font-bold text-slate-700 text-2xl">Lorem Ipsum</h3>
+              <p class="font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           </div>
 
@@ -42,8 +42,8 @@ export default function RoadMap() {
               <h1 class="mx-auto text-white font-semibold text-lg">3</h1>
             </div>
             <div class="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4">
-              <h3 class="mb-3 font-bold text-slate-700 text-xl">Lorem Ipsum</h3>
-              <p class="text-sm font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <h3 class="mb-3 font-bold text-slate-700 text-2xl">Lorem Ipsum</h3>
+              <p class=" font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           </div>
           {/* <!-- right timeline --> */}
@@ -53,8 +53,8 @@ export default function RoadMap() {
               <h1 class="mx-auto font-semibold text-lg text-white">4</h1>
             </div>
             <div class="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4">
-              <h3 class="mb-3 font-bold text-slate-700 text-xl">Lorem Ipsum</h3>
-              <p class="text-sm leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <h3 class="mb-3 font-bold text-slate-700 text-2xl">Lorem Ipsum</h3>
+              <p class="font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           </div>
         </div>
