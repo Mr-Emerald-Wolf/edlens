@@ -3,14 +3,14 @@ import React from 'react'
 export default function Challenges() {
     return (
         <>
-            <div className="bg-red-400 p-4">
-                <h1 className="sm:text-5xl text-3xl font-medium title-font m-4 text-slate-700 dark:text-sky-200 text-center" >
+            <div className="bg-slate-700 p-4">
+                <h1 className="sm:text-5xl text-3xl title-font m-4 text-red-400 font-bold text-center" >
                     Challenges We Faced
                 </h1>
                 <div className="grid">
 
                     <div className="p-6 m-6">
-                        <p className="text-slate-700 text-xl font-weight-500">
+                        <p className="text-red-400 text-xl font-bold">
                             Challenge 1
                         </p>
                         <p className="text-slate-200">
@@ -18,7 +18,7 @@ export default function Challenges() {
                         </p>
                     </div>
                     <div className="p-6 m-6">
-                        <p className="text-cyan-200 text-xl">
+                        <p className="text-red-400 text-xl font-bold">
                             Challenge 2
                         </p>
                         <p className="text-slate-200">
@@ -27,7 +27,7 @@ export default function Challenges() {
                     </div>
                    
                     <div className="p-6 m-6">
-                        <p className="text-cyan-200 text-xl">
+                        <p className="text-red-400 text-xl font-bold">
                             Challenge 3
                         </p>
                         <p className="text-slate-200">
@@ -36,7 +36,7 @@ export default function Challenges() {
                     </div>
                    
                     <div className="p-6 m-6">
-                        <p className="text-cyan-200 text-xl">
+                        <p className="text-red-400 text-xl font-bold">
                             Challenge 4
                         </p>
                         <p className="text-slate-200">
