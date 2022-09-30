@@ -18,7 +18,7 @@ export default function About() {
 
     return (
         <>
-            <section className="flex h-screen items-center px-6 lg:px-32 bg-slate-700 dark:bg-black justify-center ">
+            <section id='landing' className="flex h-screen items-center px-6 lg:px-32 bg-slate-700 dark:bg-black justify-center ">
                 <main id='' className="w-full md:w-9/12 xl:w-8/12">
                     <h1 className="text-6xl md:text-10xl z-20 lg:text-[150px] mb-[5rem] font-bold dark:text-red-300 text-red-400">
                         EdLens
@@ -26,6 +26,8 @@ export default function About() {
                     <h1 className="text-4xl md:text-4xl z-30 lg:text-2xl mb-[5rem] text-left font-bold dark:text-slate-300 text-pale">
                         A web based Augmented Reality Platform
                     </h1>
+                    <button class="rounded-md text-xl bg-red-400 p-4">Scan Now</button>
+
                     <motion.svg className='  absolute top-[30%] left-[70%]' width="20rem" height="20rem" viewBox="-24.28 0 119.673 119.673" xmlns="http://www.w3.org/2000/svg">
                         <motion.g variants={icon}
                             initial="hidden"

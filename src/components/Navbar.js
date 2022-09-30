@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -12,22 +14,22 @@ export default function Navbar({ fixed }) {
                         <div className="flex flex-grow items-center justify-end"></div>       
                         <ul className="items-stretch hidden space-x-3 lg:flex">
                             <li className="flex">
-                                <a rel="noopener noreferrer" href="#about" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800 dark:border-transparent font-Kanit">APP</a>
+                                <a rel="noopener noreferrer" href="#app" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800 dark:border-transparent font-Kanit">APP</a>
                             </li>
                             <li className="flex">
-                                <a rel="noopener noreferrer" href="#projects" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800 tracking-wide font-light  dark:border-transparent font-Kanit">TECH USED</a>
+                                <a rel="noopener noreferrer" href="#tech" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800 tracking-wide font-light  dark:border-transparent font-Kanit">TECH USED</a>
                             </li>
                             <li className="flex">
-                                <a rel="noopener noreferrer" href="#skills" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800  dark:border-transparent font-Kanit">ROAD MAP</a>
+                                <a rel="noopener noreferrer" href="#roadmap" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800  dark:border-transparent font-Kanit">ROAD MAP</a>
                             </li>
                             <li className="flex">
-                                <a rel="noopener noreferrer" href="#contact" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800  dark:border-transparent font-Kanit">CHALLENGES FACED</a>
+                                <a rel="noopener noreferrer" href="#challenges" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800  dark:border-transparent font-Kanit">CHALLENGES FACED</a>
                             </li>
                             <li className="flex">
-                                <a rel="noopener noreferrer" href="#contact" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800  dark:border-transparent font-Kanit">PRICING</a>
+                                <a rel="noopener noreferrer" href="#pricing" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800  dark:border-transparent font-Kanit">PRICING</a>
                             </li>
                             <li className="flex">
-                                <a rel="noopener noreferrer" href="#contact" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800  dark:border-transparent font-Kanit">ABOUT US</a>
+                                <a rel="noopener noreferrer" href="#about" className="flex items-center px-4 -mb-1 text-red-500 hover:text-sky-800  dark:border-transparent font-Kanit">ABOUT US</a>
                             </li>
                         </ul>
                         
