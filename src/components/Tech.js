@@ -19,10 +19,10 @@ export default function Tech() {
               transform: isInView ? "none" : "translateX(-200px)",
               opacity: isInView ? 1 : 0,
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-            }} className="sm:text-5xl text-3xl font-bold title-font m-4  text-pale -mb-4 text-center" >
+            }} className="sm:text-5xl text-3xl font-bold title-font mb-1 md:mb-4 text-pale text-center" >
               Tech Used
             </h1>
-            <div className="grid md:grid-cols-3 grid-rows gap-4 p-[2rem] md:p-[4rem] justify-items-center">
+            <div className="grid md:grid-cols-3 grid-rows gap-4 p-2 md:p-4 justify-items-center">
               {tech.map((tech) => (
                 <div key={tech} className="p-2">
                   <motion.div style={{

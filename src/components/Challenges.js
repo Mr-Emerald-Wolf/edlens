@@ -8,7 +8,7 @@ export default function Challenges() {
                     <h1 className="sm:text-5xl text-3xl title-font m-2 text-red-400 font-bold text-center" >
                         Challenges We Faced
                     </h1>
-                    <div className="grid mx-[3rem]">
+                    <div className="grid m-3">
                         <div className="p-2 m-2">
                             <p className="text-red-400 text-2xl font-bold">
                                 Challenge 1
