@@ -22,7 +22,11 @@ export default function Tech() {
             }} className="sm:text-5xl text-3xl font-bold title-font m-4 mt-[3rem] mb-[5rem] text-pale  text-center" >
               Tech Used
             </h1>
+<<<<<<< HEAD
             <div className="grid grid-cols-3 gap-4 p-4 px-[4rem] justify-items-center mb-[5rem]">
+=======
+            <div className="grid md:grid-cols-3 grid-rows gap-4 p-4 px-[4rem] justify-items-center">
+>>>>>>> fc7542abb279dcb1891a54e83156b4ec5624eef4
               {tech.map((tech) => (
                 <div key={tech} className="p-2">
                   <motion.div style={{
