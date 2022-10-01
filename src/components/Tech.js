@@ -14,7 +14,7 @@ export default function Tech() {
     <>
       <section ref={ref} id='tech'>
         <div className="grid content-center min-h-screen bg-slate-700 ">
-          <div className="mb-6 ">
+          <div className="">
             <h1 style={{
               transform: isInView ? "none" : "translateX(-200px)",
               opacity: isInView ? 1 : 0,
@@ -22,7 +22,7 @@ export default function Tech() {
             }} className="sm:text-5xl text-3xl font-bold title-font m-4  text-pale -mb-4 text-center" >
               Tech Used
             </h1>
-            <div className="grid md:grid-cols-3 grid-rows gap-4 p-[4rem]  justify-items-center">
+            <div className="grid md:grid-cols-3 grid-rows gap-4 p-[2rem] md:p-[4rem] justify-items-center">
               {tech.map((tech) => (
                 <div key={tech} className="p-2">
                   <motion.div style={{

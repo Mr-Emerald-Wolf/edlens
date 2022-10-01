@@ -10,16 +10,16 @@ export default function AboutApp() {
     return (
         <>
             <section id='app' ref={ref}>
-                <div className="p-4 bg-red-400 min-h-screen">
+                <div className="p-4 bg-red-400 min-h-screen grid content-center ">
                     <div className="grid sm:grid-cols-2 m-2 grid-flow-row">
-                        <div className="">
+                        <div className="grid content-center">
                             <img style={{
                                 transform: isInView ? "none" : "translateX(-200px)",
                                 opacity: isInView ? 1 : 0,
                                 transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
                             }} className='mx-auto my-auto w-3/4 md:w-2/3 lg:w-1/2' src="./img/phone.png" alt="Profile" />
                         </div>
-                        <div className='container text-center mx-auto order-0'>
+                        <div className='container text-center mx-auto order-0 grid content-center '>
                             <h1 style={{
                                 transform: isInView ? "none" : "translateX(-200px)",
                                 opacity: isInView ? 1 : 0,
