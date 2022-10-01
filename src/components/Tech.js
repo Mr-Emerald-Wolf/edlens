@@ -34,10 +34,10 @@ export default function Tech() {
                       <div className="flex p-2">
                         <CheckBadgeIcon className="text-red-400 w-8 h-8 flex-shrink-0 mr-4" />
                         <span className="title-font text-xl font-medium text-slate-700">
-                          {tech}
+                          {tech.Title}
                         </span>
                       </div>
-                      <p className="text-red-400 px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum praesentium est aperiam odit consectetur facere blanditiis porro hic veniam. Vitae nisi nam quae fuga consectetur aliquam quis distinctio recusandae.</p>
+                      <p className="text-red-400 px-2">{tech.Content}</p>
                     </div>
 
                   </motion.div>
