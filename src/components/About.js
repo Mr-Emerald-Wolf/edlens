@@ -14,7 +14,7 @@ export default function About() {
           <div class="flex flex-col">
             {/* <!-- Notes --> */}
 
-            <div class="flex flex-col">
+            <div class="flex flex-col mt-8">
               {/* <!-- Meet the Team --> */}
               <div class="container max-w-7xl px-4">
                 {/* <!-- Section Header --> */}
