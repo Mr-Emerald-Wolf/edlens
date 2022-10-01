@@ -5,12 +5,12 @@ export default function RoadMap() {
       <section id='roadmap'>
         {/* <!-- component --> */}
         <div className="bg-hero bg-pale min-h-screen grid content-center p-5 md:p-2 lg:p-[4rem]" id=''>
-        
-           <h1 className="lg:text-6xl  text-4xl font-medium title-font m-4 text-slate-700 md:mb-[3rem] text-center" >
+
+          <h1 className="lg:text-6xl  text-4xl font-medium title-font m-4 text-slate-700 md:mb-[3rem] text-center" >
             Roadmap
           </h1>
           <div className="relative wrap overflow-hidden p-10 h-full">
-          <div className="border-2 absolute border-black md:h-full h-[80%] right-[49.89%] z-0" ></div>
+            <div className="border-2 absolute border-black md:h-full h-[80%] right-[49.89%] z-0" ></div>
             {/* <!-- left timeline --> */}
             <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12 hidden sm:flex"></div>
@@ -19,7 +19,7 @@ export default function RoadMap() {
               </div>
               <div className="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4 z-10">
                 <h3 className="mb-3 font-bold text-slate-700 text-2xl">Firebase for User Auth</h3>
-                <p className=" font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Implementing user login using Firebase to store previous search results. To store user data for</p>
+                <p className=" font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Implementing user login using Firebase to store previous search results. To store user data.</p>
               </div>
             </div>
             {/* <!-- right timeline --> */}
