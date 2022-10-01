@@ -13,7 +13,7 @@ const blobs = {
     }
 };
 
-export default function About() {
+export default function Landing() {
 
     const icon = {
         hidden: {
