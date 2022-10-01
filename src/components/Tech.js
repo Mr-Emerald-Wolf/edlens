@@ -19,10 +19,10 @@ export default function Tech() {
               transform: isInView ? "none" : "translateX(-200px)",
               opacity: isInView ? 1 : 0,
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-            }} className="sm:text-5xl text-3xl font-bold title-font m-4 mt-[3rem] mb-[5rem] text-pale  text-center" >
+            }} className="sm:text-5xl text-3xl font-bold title-font m-4  text-pale -mb-4 text-center" >
               Tech Used
             </h1>
-            <div className="grid md:grid-cols-3 grid-rows gap-4 p-4 px-[4rem] justify-items-center">
+            <div className="grid md:grid-cols-3 grid-rows gap-4 p-[4rem]  justify-items-center">
               {tech.map((tech) => (
                 <div key={tech} className="p-2">
                   <motion.div style={{
@@ -33,11 +33,11 @@ export default function Tech() {
                     <div className="grid grid-rows">
                       <div className="flex p-2">
                         <CheckBadgeIcon className="text-red-400 w-8 h-8 flex-shrink-0 mr-4" />
-                        <span className="title-font text-xl font-medium text-slate-700">
+                        <span className="title-font text-xl font-bold text-slate-700">
                           {tech.Title}
                         </span>
                       </div>
-                      <p className="text-red-400 px-2">{tech.Content}</p>
+                      <p className="text-red-400 font-medium px-2">{tech.Content}</p>
                     </div>
 
                   </motion.div>

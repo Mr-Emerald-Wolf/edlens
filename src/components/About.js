@@ -4,7 +4,7 @@ import React from 'react'
 export default function About() {
   return (
     <>
-      <section id='about'>
+      <section id='about' className="">
         {/* <!-- component --> */}
         {/* <!-- MDI Icons --> */}
         <link rel="stylesheet" alt="" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css" />
@@ -26,7 +26,7 @@ export default function About() {
                     </h1>
 
                     {/* <!-- Description --> */}
-                    <p class="text-slate-700 text-lg font-light">
+                    <p class="text-slate-700 text-xl font-light">
                       With over 100 years of combined experience, we've got a well-seasoned team at the helm.
                     </p>
                   </div>

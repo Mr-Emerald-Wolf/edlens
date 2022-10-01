@@ -16,7 +16,8 @@ module.exports = {
       backgroundImage: {
         'hero': "url('./assets/cogs.svg')",
         'dots': "url('./assets/dots.svg')",
-        'blobs': "url('./assets/blob.svg')"
+        'blobs': "url('./assets/blob.svg')",
+        'jigsaw': "url('./assets/jigsaw.svg')"
       },
 		},
 	},
