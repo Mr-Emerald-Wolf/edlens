@@ -19,7 +19,7 @@ export default function Tech() {
               transform: isInView ? "none" : "translateX(-200px)",
               opacity: isInView ? 1 : 0,
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-            }} className="sm:text-5xl text-3xl font-bold title-font mb-1 md:mb-[3rem] text-pale text-center" >
+            }} className="sm:text-5xl text-3xl font-bold title-font mb-1 md:mb-[5rem] text-pale text-center" >
               Tech Used
             </h1>
             <div className="grid md:grid-cols-3 grid-rows gap-4 p-2 md:p-4 justify-items-center">

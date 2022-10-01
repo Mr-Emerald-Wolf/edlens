@@ -21,7 +21,7 @@ export default function About() {
                 <div class="flex flex-wrap justify-center text-center mb-24">
                   <div class="w-full lg:w-6/12 px-4">
                     {/* <!-- Header --> */}
-                    <h1 class="text-slate-700 text-5xl font-bold mb-8">
+                    <h1 class="text-slate-700 lg:text-6xl  text-4xl font-bold mb-8">
                       Meet the Team
                     </h1>
 
