@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-
+    //smile
 const blobs = {
     one: {
         d:
@@ -76,7 +76,7 @@ export default function About() {
                             </linearGradient>
                         </defs>
                     </svg>
-
+                    
                     <motion.svg className='hidden lg:flex  absolute top-[30%] left-[70%]' width="20rem" height="20rem" viewBox="-24.28 0 119.673 119.673" xmlns="http://www.w3.org/2000/svg">
                         <motion.g variants={icon}
                             initial="hidden"
