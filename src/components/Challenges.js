@@ -14,7 +14,7 @@ export default function Challenges() {
                                 Implementing 3D Models for rendering in our app
                             </p>
                             <p className="text-pale text-xl">
-                                Most 3D models are behind a pay wall and to implement the limited models aavailable in the given time period.
+                                Most 3D models are behind a pay wall and to implement the limited models available in the given time period was a challenge.
                             </p>
                         </div>
                         <div className="p-2 m-2">
@@ -31,7 +31,7 @@ export default function Challenges() {
                                 Implementing Markerless AR for the first time
                             </p>
                             <p className="text-pale text-xl">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit! In, hic. Maxime exercitationem reprehenderit consequuntur ea deserunt quas totam corrupti! Id sit neque dolore deserunt suscipit expedita quas tempore!
+                                Bad tracking and World tracking only works in mobile. 
                             </p>
                         </div>
 
