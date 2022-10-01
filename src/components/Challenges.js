@@ -4,7 +4,7 @@ export default function Challenges() {
     return (
         <>
             <section id='challenges'>
-                <div className="bg-slate-700 min-h-screen grid content-center p-4 md:p-2 lg:p-[4rem] py-[4rem]">
+                <div className="bg-slate-700 min-h-screen grid content-center p-4 md:p-2 lg:p-[4rem]">
                     <h1 className="lg:text-6xl  text-4xl title-font m-2 text-red-400 font-bold text-center md:mb-[4rem] " >
                         Challenges We Faced
                     </h1>
@@ -14,7 +14,7 @@ export default function Challenges() {
                                 Implementing 3D Models for rendering in our app
                             </p>
                             <p className="text-pale text-xl">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit! In, hic. Maxime exercitationem reprehenderit consequuntur ea deserunt quas totam corrupti! Id sit neque dolore deserunt suscipit expedita quas tempore!
+                                Most 3D models are behind a pay wall and to implement the limited models aavailable in the given time period.
                             </p>
                         </div>
                         <div className="p-2 m-2">
@@ -22,7 +22,7 @@ export default function Challenges() {
                                 Implementing live OCR to extract text from live video feed
                             </p>
                             <p className="text-pale text-xl">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit! In, hic. Maxime exercitationem reprehenderit consequuntur ea deserunt quas totam corrupti! Id sit neque dolore deserunt suscipit expedita quas tempore!
+                                Implementation of the Google Vision API for live OCR to extract text from live video feed was very inconsistent. The API proved to be very buggy; so we had to make some work arounds.
                             </p>
                         </div>
 
