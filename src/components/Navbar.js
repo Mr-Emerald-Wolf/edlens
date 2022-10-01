@@ -36,7 +36,7 @@ export default function Navbar({ fixed }) {
                        
                     <button className="flex justify-end p-4 md:hidden" onClick={() => setNavbarOpen(!navbarOpen)}>
                   
-                    {<a className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-transparent text-lime-800 text-sm dark:text-[#96b565] "></a>}
+                   
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#ef4444" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
@@ -46,10 +46,10 @@ export default function Navbar({ fixed }) {
                     
                 <div className="md:hidden">
                     <ul className={(navbarOpen ? "grid grid-cols-1" : "hidden")}>
-                        <li ><a className="block p-4  transition   duration-300 bg-slate-700 hover:bg-slate-800 text-red-500" >Help</a></li>
-                        <li ><a className="block text-sm p-4  transition  duration-300 bg-slate-600 hover:bg-slate-800 text-red-500"  >About</a></li>
-                        <li ><a  className="block text-sm  p-4  transition  duration-300 bg-slate-700 hover:bg-slate-800 text-red-500" >Contact</a></li>
-                        {<li className="block  text-sm p-4  transition  duration-300 bg-slate-600  hover:bg-slate-800 text-red-500">Log Out</li>}
+                        <li ><a className="block p-4  transition   duration-300 bg-slate-700 hover:bg-slate-800 text-red-500"   href="/">Help</a></li>
+                        <li ><a className="block text-sm p-4  transition  duration-300 bg-slate-600 hover:bg-slate-800 text-red-500"    href="/">About</a></li>
+                        <li ><a  className="block text-sm  p-4  transition  duration-300 bg-slate-700 hover:bg-slate-800 text-red-500"   href="/">Contact</a></li>
+                        <li><a className="block  text-sm p-4  transition  duration-300 bg-slate-600  hover:bg-slate-800 text-red-500"   href="/">Log Out</a></li>
                     </ul>
                 </div>
                 </header>
