@@ -5,7 +5,7 @@ export default function About() {
 
     const icon = {
         hidden: {
-            opacity: 0.2,
+            opacity: 0.5,
             pathLength: 0,
 
         },
@@ -28,9 +28,9 @@ export default function About() {
                     <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1,type:"spring", stiffness:100}} className="text-4xl md:text-4xl lg:text-2xl mb-[5rem] text-left font-bold  text-pale">
                         A web based Augmented Reality Platform
                     </motion.h1>
-                    <motion.a initial={{scale:0}} animate={{scale:1}} transition={{delay:1.5, type:'spring'}} href='https://44a8-136-233-9-98.in.ngrok.io/' class="rounded-md text-xl bg-red-400 p-3 ">Scan Now</motion.a>
+                    <a href='https://44a8-136-233-9-98.in.ngrok.io/' class="rounded-md text-xl bg-red-400 p-3 ">Scan Now</a>
 
-                    <motion.svg className='  absolute top-[30%] left-[70%]' width="30rem" height="30rem" viewBox="-24.28 0 119.673 119.673" xmlns="http://www.w3.org/2000/svg">
+                    <motion.svg className='hidden lg:flex  absolute top-[30%] left-[70%]' width="20rem" height="20rem" viewBox="-24.28 0 119.673 119.673" xmlns="http://www.w3.org/2000/svg">
                         <motion.g variants={icon}
                             initial="hidden"
                             animate="visible"
@@ -41,7 +41,7 @@ export default function About() {
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3.75, ease: "easeInOut", delay:0.25 },
+                                    default: { duration: 3.75, ease: "easeInOut", delay:2 },
                                 }} width="68.12" height="116.673" rx="6.232" transform="translate(402.107 377.414)" stroke-width="3" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
