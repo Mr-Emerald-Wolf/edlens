@@ -6,9 +6,9 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <header className="bg-slate-800  p-1 z-50 top-0 md:sticky">
+      <header className="bg-slate-800 z-50 top-0 md:sticky">
                     <div className="container flex justify-between mx-auto">
-                        <a rel="noopener noreferrer" href="#landing" aria-label="Back to homepage" className="flex items-center p-1 font-bold text-3xl text-red-500">
+                        <a rel="noopener noreferrer" href="#landing" aria-label="Back to homepage" className="flex items-center p-1 md:font-bold text-3xl text-red-500">
                             EdLens
                         </a>
                         <div className="flex flex-grow items-center justify-end"></div>       
@@ -33,21 +33,25 @@ export default function Navbar({ fixed }) {
                             </li>
                         </ul>
                         
-                        <button className="flex justify-end p-4 lg:hidden" onClick={() => setNavbarOpen(!navbarOpen)}>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                            </svg>
-                        </button>
+                       
+                    <button className="flex justify-end p-4 md:hidden" onClick={() => setNavbarOpen(!navbarOpen)}>
+                  
+                    {<a className="flex items-center px-4 -mb-1 hover:text-lime-600  dark:border-transparent text-lime-800 text-sm dark:text-[#96b565] "></a>}
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#ef4444" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
                     </div>
                    
-                    <div className="lg:hidden">
-                        <ul className={(navbarOpen? "": "hidden")}>
-                                <li className="active"><a href="#about" className="block text-sm px-2 py-4 bg-white hover:bg-slate-100  font-semibold">About</a></li>
-                                <li><a href="#projects" className="block text-sm px-2 py-4 bg-sky-100 hover:bg-slate-100 transition  duration-300">Projects</a></li>
-                                <li><a href="#skills" className="block text-sm px-2 py-4 bg-white hover:bg-slate-100 transition duration-300">Skills</a></li>
-                                <li><a href="#contact" className="block text-sm px-2 py-4 bg-sky-100 hover:bg-slate-100 transition  duration-300">Contact</a></li>
-                         </ul>
-                    </div>
+                    
+                <div className="md:hidden">
+                    <ul className={(navbarOpen ? "grid grid-cols-1" : "hidden")}>
+                        <li ><a className="block p-4  transition   duration-300 bg-slate-700 hover:bg-slate-800 text-red-500" >Help</a></li>
+                        <li ><a className="block text-sm p-4  transition  duration-300 bg-slate-600 hover:bg-slate-800 text-red-500"  >About</a></li>
+                        <li ><a  className="block text-sm  p-4  transition  duration-300 bg-slate-700 hover:bg-slate-800 text-red-500" >Contact</a></li>
+                        {<li className="block  text-sm p-4  transition  duration-300 bg-slate-600  hover:bg-slate-800 text-red-500">Log Out</li>}
+                    </ul>
+                </div>
                 </header>
     </>
   );
