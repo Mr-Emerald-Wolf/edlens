@@ -34,7 +34,7 @@ export default function Pricing() {
                                 <li className="flex items-center space-x-3">
                                     {/* <!-- Icon --> */}
                                     <svg className="flex-shrink-0 w-5 h-5 text-red-400 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span className= "text-pale">Team size: <span className="font-semibold">1 developer</span></span>
+                                    <span className= "text-pale">Screens supported: <span className="font-semibold">2 </span></span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     {/* <!-- Icon --> */}
@@ -72,7 +72,7 @@ export default function Pricing() {
                                 <li className="flex items-center space-x-3">
                                     {/* <!-- Icon --> */}
                                     <svg className="flex-shrink-0 w-5 h-5 text-red-400 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span className= "text-pale">Team size: <span className="font-semibold">10 developers</span></span>
+                                    <span className= "text-pale">Screens supported: <span className="font-semibold">30 </span></span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     {/* <!-- Icon --> */}
@@ -92,7 +92,7 @@ export default function Pricing() {
                             <h3 className="mb-4 text-4xl font-semibold text-red-400">School</h3>
                             <p className="font-light text-pale sm:text-lg ">Best for large scale uses and extended redistribution rights.</p>
                             <div className="flex justify-center items-baseline my-8">
-                                <span className="mr-2 text-5xl text-white font-bold">₹5000</span>
+                                <span className="mr-2 text-5xl text-white font-bold">₹7500</span>
                                 <span className="text-gray-500 ">/month</span>
                             </div>
                             {/* <!-- List --> */}
@@ -110,7 +110,7 @@ export default function Pricing() {
                                 <li className="flex items-center space-x-3">
                                     {/* <!-- Icon --> */}
                                     <svg className="flex-shrink-0 w-5 h-5 text-red-400 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                                    <span className= "text-pale">Team size: <span className="font-semibold">100+ developers</span></span>
+                                    <span className= "text-pale">Screens supported: <span className="font-semibold">100</span></span>
                                 </li>
                                 <li className="flex items-center space-x-3">
                                     {/* <!-- Icon --> */}
