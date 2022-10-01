@@ -28,7 +28,7 @@ export default function About() {
                     <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1,type:"spring", stiffness:100}} className="text-4xl md:text-4xl lg:text-2xl mb-[5rem] text-left font-bold  text-pale">
                         A web based Augmented Reality Platform
                     </motion.h1>
-                    <a href='https://44a8-136-233-9-98.in.ngrok.io/' class="rounded-md text-xl bg-red-400 p-3 ">Scan Now</a>
+                    <a href='https://44a8-136-233-9-98.in.ngrok.io/' className="rounded-md text-xl bg-red-400 p-3 ">Scan Now</a>
 
                     <motion.svg className='hidden lg:flex  absolute top-[30%] left-[70%]' width="20rem" height="20rem" viewBox="-24.28 0 119.673 119.673" xmlns="http://www.w3.org/2000/svg">
                         <motion.g variants={icon}
@@ -42,67 +42,67 @@ export default function About() {
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3.75, ease: "easeInOut", delay:2 },
-                                }} width="68.12" height="116.673" rx="6.232" transform="translate(402.107 377.414)" stroke-width="3" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                }} width="68.12" height="116.673" rx="6.232" transform="translate(402.107 377.414)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} x2="68.12" transform="translate(402.107 392.73)" stroke-width="3" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                }} x2="68.12" transform="translate(402.107 392.73)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} x2="68.12" transform="translate(402.107 478.77)" stroke-width="3" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                }} x2="68.12" transform="translate(402.107 478.77)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} x2="6.249" transform="translate(429.596 385.395)" stroke-width="3" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                }} x2="6.249" transform="translate(429.596 385.395)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} x2="1.607" transform="translate(441.131 385.395)" stroke-width="3" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                }} x2="1.607" transform="translate(441.131 385.395)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} x2="9.789" transform="translate(431.272 486.405)" stroke-width="3" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                }} x2="9.789" transform="translate(431.272 486.405)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.path variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} d="M450.229,449.409V433.171l-14.062-8.119L422.1,433.171v16.238l14.062,8.119Z" fill="none" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                                }} d="M450.229,449.409V433.171l-14.062-8.119L422.1,433.171v16.238l14.062,8.119Z" fill="none" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                             <motion.path variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} d="M422.1,433.171l14.062,8.119,14.062-8.119" fill="none" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                                }} d="M422.1,433.171l14.062,8.119,14.062-8.119" fill="none" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} y1="16.238" transform="translate(436.167 441.29)" stroke-width="3" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                }} y1="16.238" transform="translate(436.167 441.29)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.path variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} d="M440.272,417.927c13.4,1.065,23.678,7.26,23.678,14.743,0,8.231-12.439,14.9-27.783,14.9s-27.784-6.673-27.784-14.9c0-8.1,12.031-14.683,27.024-14.9" fill="none" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                                }} d="M440.272,417.927c13.4,1.065,23.678,7.26,23.678,14.743,0,8.231-12.439,14.9-27.783,14.9s-27.784-6.673-27.784-14.9c0-8.1,12.031-14.683,27.024-14.9" fill="none" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                             <motion.path variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
                                     default: { duration: 3, ease: "easeInOut", delay:2 },
-                                }} d="M432.153,413.972l3.253,3.8-3.253,3.8" fill="none" stroke="#f87171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                                }} d="M432.153,413.972l3.253,3.8-3.253,3.8" fill="none" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                         </motion.g>
                     </motion.svg>
                     <div className="mt-2 p-2">

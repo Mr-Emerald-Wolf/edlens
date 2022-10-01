@@ -1,6 +1,7 @@
 import { useInView } from 'framer-motion';
 import React, { useRef } from 'react'
 
+
 export default function AboutApp() {
 
     const ref = useRef(null);
