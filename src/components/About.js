@@ -21,12 +21,12 @@ export default function About() {
                 <div class="flex flex-wrap justify-center text-center mb-24">
                   <div class="w-full lg:w-6/12 px-4">
                     {/* <!-- Header --> */}
-                    <h1 class="text-gray-900 text-5xl font-bold mb-8">
+                    <h1 class="text-slate-700 text-5xl font-bold mb-8">
                       Meet the Team
                     </h1>
 
                     {/* <!-- Description --> */}
-                    <p class="text-gray-700 text-lg font-light">
+                    <p class="text-slate-700 text-lg font-light">
                       With over 100 years of combined experience, we've got a well-seasoned team at the helm.
                     </p>
                   </div>
@@ -46,13 +46,13 @@ export default function About() {
                       {/* <!-- Details --> */}
                       <div class="text-center mt-6">
                         {/* <!-- Name --> */}
-                        <h1 class="text-gray-900 text-xl font-bold mb-1">
-                          Tranter Jaskulski
+                        <h1 class="text-slate-700 text-xl font-bold mb-1">
+                          Achintya Gupta
                         </h1>
 
                         {/* <!-- Title --> */}
                         <div class="text-gray-700 font-light mb-2">
-                          Founder {"&"} Specialist
+                          Team Lead {"&"} AR Dev
                         </div>
 
                         {/* <!-- Social Icons --> */}
@@ -89,13 +89,13 @@ export default function About() {
                       {/* <!-- Details --> */}
                       <div class="text-center mt-6">
                         {/* <!-- Name --> */}
-                        <h1 class="text-gray-900 text-xl font-bold mb-1">
-                          Denice Jagna
+                        <h1 class="text-slate-700 text-xl font-bold mb-1">
+                          Shivam Sharma
                         </h1>
 
                         {/* <!-- Title --> */}
                         <div class="text-gray-700 font-light mb-2">
-                          Tired {"&"} M. Specialist
+                          Full Stack
                         </div>
 
                         {/* <!-- Social Icons --> */}
@@ -132,13 +132,13 @@ export default function About() {
                       {/* <!-- Details --> */}
                       <div class="text-center mt-6">
                         {/* <!-- Name --> */}
-                        <h1 class="text-gray-900 text-xl font-bold mb-1">
-                          Kenji Milton
+                        <h1 class="text-slate-700 text-xl font-bold mb-1">
+                          Rehul Mastogi
                         </h1>
 
                         {/* <!-- Title --> */}
                         <div class="text-gray-700 font-light mb-2">
-                          Team Member
+                          UI-UX {'&'} Front End 
                         </div>
 
                         {/* <!-- Social Icons --> */}
@@ -175,13 +175,13 @@ export default function About() {
                       {/* <!-- Details --> */}
                       <div class="text-center mt-6">
                         {/* <!-- Name --> */}
-                        <h1 class="text-gray-900 text-xl font-bold mb-1">
-                          Doesn't matter
+                        <h1 class="text-slate-700 text-xl font-bold mb-1">
+                          Bruh
                         </h1>
 
                         {/* <!-- Title --> */}
                         <div class="text-gray-700 font-light mb-2">
-                          Will be fired
+                         Bruh Bruh
                         </div>
 
                         {/* <!-- Social Icons --> */}
