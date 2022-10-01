@@ -8,6 +8,8 @@ import RoadMap from './components/Timeline';
 import Challenges from './components/Challenges';
 import Pricing from './components/Pricing';
 import About from './components/About';
+import Ocr from './components/Ocr';
+
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <Challenges/>
       <Pricing/>
       <About/>
+      <Ocr/>
+
     </>
   );
 }
