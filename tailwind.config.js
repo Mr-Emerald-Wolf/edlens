@@ -15,7 +15,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('./assets/cogs.svg')",
-        'dots': "url('./assets/dots.svg')"
+        'dots': "url('./assets/dots.svg')",
+        'blobs': "url('./assets/blob.svg')"
       },
 		},
 	},

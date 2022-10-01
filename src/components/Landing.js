@@ -1,6 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+
+const blobs = {
+    one: {
+        d:
+            "M300.007 0.0616234C397.343 -1.47215 495.012 25.4701 559.635 98.275C628.47 175.825 675.232 285.425 639.799 382.877C607.01 473.058 490.608 479.999 405.048 523.44C315.133 569.093 234.753 672.442 140.597 636.339C43.8518 599.242 26.6436 473.827 9.26897 371.68C-6.52409 278.832 -7.59317 180.477 50.4405 106.299C109.054 31.38 204.896 1.56033 300.007 0.0616234Z"
+    },
+    two: {
+        d:
+            "M344.843 1.10919C437.987 -8.98476 525.417 51.1543 580.507 126.936C632.718 198.757 648.2 293.677 618.31 377.288C591.809 451.423 510.387 477.478 441.542 515.669C363.531 558.945 290.112 630.861 204.14 607.043C104.401 579.41 9.61143 496.564 0.472325 393.472C-8.08449 296.948 101.644 244.732 165.565 171.902C222.847 106.638 258.512 10.4648 344.843 1.10919Z"
+    }
+};
+
 export default function About() {
 
     const icon = {
@@ -18,90 +30,125 @@ export default function About() {
 
     return (
         <>
-            <section id='landing' className="flex h-screen items-center px-6 lg:px-32 bg-slate-700 bg-dots justify-center ">
-            <div className='hidden absolute w-1/5 h-3/4 bottom-0 left-0 bg-dots'> </div>
+            <section id='landing' className="flex  h-screen items-center px-6 lg:px-32 bg-slate-700 bg-dots justify-center ">
+                <div className='hidden absolute w-1/5 h-3/4 bottom-0 left-0 bg-dots'> </div>
                 <main id='' className="w-full md:w-9/12 xl:w-8/12">
-                   
-                    <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.5, type:"spring", stiffness:100}} className="text-6xl md:text-10xl z-20 lg:text-[150px] mb-[5rem] font-medium  text-red-400">
+
+                    <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5, type: "spring", stiffness: 100 }} className="text-6xl md:text-10xl z-20 lg:text-[150px] mb-[5rem] font-medium  text-red-400">
                         EdLens
                     </motion.h1>
-                    <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1,type:"spring", stiffness:100}} className="text-4xl md:text-4xl lg:text-2xl mb-[5rem] text-left font-bold  text-pale">
+                    <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, type: "spring", stiffness: 100 }} className="text-4xl md:text-4xl lg:text-2xl mb-[5rem] text-left font-bold  text-pale">
                         A web based Augmented Reality Platform
                     </motion.h1>
                     <a href='https://44a8-136-233-9-98.in.ngrok.io/' className="rounded-md text-xl bg-red-400 p-3 ">Scan Now</a>
+
+                    {/* <svg className="absolute top-[21%] left-[65%] "  fill="#edf5e1" width="30rem" height="30rem" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+                        <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z" />
+                    </svg> */}
+
+                    <svg
+                        className='absolute top-[25%] left-[65%]'
+                        width="30rem"
+                        height="30rem"
+                        viewBox="0 0 650 650"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <motion.path
+                            initial={blobs.one}
+                            animate={blobs.two}
+                            transition={{ yoyo: Infinity, duration: 4, ease: "easeInOut" }}
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            fill="url(#paint0_linear)"
+                        />
+                        <defs>
+                            <linearGradient
+                                id="paint0_linear"
+                                x1="57.3913"
+                                y1="214.187"
+                                x2="489.792"
+                                y2="330.049"
+                                gradientUnits="userSpaceOnUse"
+                            >
+                                <stop stopColor="#edf5e1" />
+                                <stop offset="1" stop-color="#edf5e1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
 
                     <motion.svg className='hidden lg:flex  absolute top-[30%] left-[70%]' width="20rem" height="20rem" viewBox="-24.28 0 119.673 119.673" xmlns="http://www.w3.org/2000/svg">
                         <motion.g variants={icon}
                             initial="hidden"
                             animate="visible"
                             transition={{
-                                default: { duration: 3.75, ease: "easeInOut", delay:2 },
+                                default: { duration: 3.75, ease: "easeInOut", delay: 2 },
                             }} transform="translate(-400.607 -375.914)">
                             <motion.rect variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3.75, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3.75, ease: "easeInOut", delay: 2 },
                                 }} width="68.12" height="116.673" rx="6.232" transform="translate(402.107 377.414)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} x2="68.12" transform="translate(402.107 392.73)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} x2="68.12" transform="translate(402.107 478.77)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} x2="6.249" transform="translate(429.596 385.395)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} x2="1.607" transform="translate(441.131 385.395)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} x2="9.789" transform="translate(431.272 486.405)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.path variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} d="M450.229,449.409V433.171l-14.062-8.119L422.1,433.171v16.238l14.062,8.119Z" fill="none" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                             <motion.path variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} d="M422.1,433.171l14.062,8.119,14.062-8.119" fill="none" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                             <motion.line variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} y1="16.238" transform="translate(436.167 441.29)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.path variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} d="M440.272,417.927c13.4,1.065,23.678,7.26,23.678,14.743,0,8.231-12.439,14.9-27.783,14.9s-27.784-6.673-27.784-14.9c0-8.1,12.031-14.683,27.024-14.9" fill="none" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                             <motion.path variants={icon}
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3, ease: "easeInOut", delay:2 },
+                                    default: { duration: 3, ease: "easeInOut", delay: 2 },
                                 }} d="M432.153,413.972l3.253,3.8-3.253,3.8" fill="none" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                         </motion.g>
                     </motion.svg>
