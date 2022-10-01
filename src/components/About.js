@@ -21,14 +21,12 @@ export default function About() {
                 <div class="flex flex-wrap justify-center text-center mb-24">
                   <div class="w-full lg:w-6/12 px-4">
                     {/* <!-- Header --> */}
-                    <h1 class="text-slate-700 text-5xl font-bold mb-8">
+                    <h1 class="text-slate-700 text-5xl font-bold mb-6">
                       Meet the Team
                     </h1>
 
                     {/* <!-- Description --> */}
-                    <p class="text-slate-700 text-xl font-light">
-                      With over 100 years of combined experience, we've got a well-seasoned team at the helm.
-                    </p>
+                    
                   </div>
                 </div>
 
