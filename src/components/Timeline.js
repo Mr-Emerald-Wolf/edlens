@@ -4,7 +4,7 @@ export default function RoadMap() {
     <>
       <section id='roadmap'>
         {/* <!-- component --> */}
-        <div className="bg-hero bg-pale min-h-screen grid content-center p-5 md:p-2" id=''>
+        <div className="bg-hero bg-pale min-h-screen grid content-center p-5 md:p-2 lg:p-[4rem]" id=''>
         
            <h1 className="lg:text-6xl  text-4xl font-medium title-font m-4 text-slate-700 md:mb-[3rem] text-center" >
             Roadmap

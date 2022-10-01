@@ -131,7 +131,7 @@ export default function About() {
                       <div class="text-center mt-6">
                         {/* <!-- Name --> */}
                         <h1 class="text-slate-700 text-xl font-bold mb-1">
-                          Rehul Mastogi
+                          Mehul Rastogi
                         </h1>
 
                         {/* <!-- Title --> */}
@@ -174,12 +174,12 @@ export default function About() {
                       <div class="text-center mt-6">
                         {/* <!-- Name --> */}
                         <h1 class="text-slate-700 text-xl font-bold mb-1">
-                          Bruh
+                          Siddharth Dave
                         </h1>
 
                         {/* <!-- Title --> */}
                         <div class="text-gray-700 font-light mb-2">
-                         Bruh Bruh
+                          Front End {"&"} AR Dev 
                         </div>
 
                         {/* <!-- Social Icons --> */}

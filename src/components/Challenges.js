@@ -4,56 +4,38 @@ export default function Challenges() {
     return (
         <>
             <section id='challenges'>
-                <div className="bg-slate-700 min-h-screen grid content-center p-4 md:p-2 ">
-                    <h1 className="lg:text-6xl  text-4xl title-font m-2 text-red-400 font-bold text-center md:mb-[4rem]" >
+                <div className="bg-slate-700 min-h-screen grid content-center p-4 md:p-2 lg:p-[4rem]">
+                    <h1 className="lg:text-6xl  text-4xl title-font m-2 text-red-400 font-bold text-center md:mb-[4rem] " >
                         Challenges We Faced
                     </h1>
                     <div className="grid m-3">
                         <div className="p-2 m-2">
                             <p className="text-red-400 text-2xl font-bold">
-                                Challenge 1
+                                Implementing 3D Models for rendering in our app
                             </p>
-                            <p className="text-pale text-lg">
+                            <p className="text-pale text-xl">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit! In, hic. Maxime exercitationem reprehenderit consequuntur ea deserunt quas totam corrupti! Id sit neque dolore deserunt suscipit expedita quas tempore!
                             </p>
                         </div>
                         <div className="p-2 m-2">
                             <p className="text-red-400 text-2xl font-bold">
-                                Challenge 2
+                                Implementing live OCR to extract text from live video feed
                             </p>
-                            <p className="text-pale text-lg">
+                            <p className="text-pale text-xl">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit! In, hic. Maxime exercitationem reprehenderit consequuntur ea deserunt quas totam corrupti! Id sit neque dolore deserunt suscipit expedita quas tempore!
                             </p>
                         </div>
-                
+
                         <div className="p-2 m-2">
                             <p className="text-red-400 text-2xl font-bold">
-                                Challenge 3
+                                Implementing Markerless AR for the first time
                             </p>
-                            <p className="text-pale text-lg">
+                            <p className="text-pale text-xl">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit! In, hic. Maxime exercitationem reprehenderit consequuntur ea deserunt quas totam corrupti! Id sit neque dolore deserunt suscipit expedita quas tempore!
                             </p>
                         </div>
-                
-                        <div className="p-2 m-2">
-                            <p className="text-red-400 text-2xl font-bold">
-                                Challenge 4
-                            </p>
-                            <p className="text-pale text-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit! In, hic. Maxime exercitationem reprehenderit consequuntur ea deserunt quas totam corrupti! Id sit neque dolore deserunt suscipit expedita quas tempore!
-                            </p>
-                        </div>
-                        <div className="p-2 m-2">
-                            <p className="text-red-400 text-2xl font-bold">
-                                Challenge 5
-                            </p>
-                            <p className="text-pale text-lg">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit! In, hic. Maxime exercitationem reprehenderit consequuntur ea deserunt quas totam corrupti! Id sit neque dolore deserunt suscipit expedita quas tempore!
-                            </p>
-                        </div>
-                
-                
-                
+
+
                     </div>
                 </div>
             </section>

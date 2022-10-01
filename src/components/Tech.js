@@ -13,13 +13,13 @@ export default function Tech() {
   return (
     <>
       <section ref={ref} id='tech'>
-        <div className="grid content-center min-h-screen bg-slate-700 p-4 md:p-2 ">
+        <div className="grid content-center min-h-screen bg-slate-700 p-4 md:p-2 lg:p-[4rem]">
           <div className="lg:m-4">
             <h1 style={{
               transform: isInView ? "none" : "translateX(-200px)",
               opacity: isInView ? 1 : 0,
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-            }} className="sm:text-5xl text-3xl font-bold title-font mb-1 md:mb-[5rem] text-pale text-center" >
+            }} className="lg:text-6xl text-4xl font-medium title-font mb-1 md:mb-[5rem] text-pale text-center" >
               Tech Used
             </h1>
             <div className="grid md:grid-cols-3 grid-rows gap-4 p-2 md:p-4 justify-items-center">
