@@ -10,7 +10,7 @@ export default function About() {
         <link rel="stylesheet" alt="" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css" />
 
         {/* <!-- Page Container --> */}
-        <div class="flex items-center justify-center min-h-screen bg-pale">
+        <div class="items-center justify-center min-h-screen bg-pale grid content-center">
           <div class="flex flex-col">
             {/* <!-- Notes --> */}
 
