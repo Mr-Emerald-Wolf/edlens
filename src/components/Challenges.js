@@ -4,8 +4,8 @@ export default function Challenges() {
     return (
         <>
             <section id='challenges'>
-                <div className="bg-slate-700 p-2 min-h-screen">
-                    <h1 className="sm:text-5xl text-3xl title-font mt-[3rem] m-2 text-red-400 font-bold text-center" >
+                <div className="bg-slate-700 p-2 min-h-screen grid content-center">
+                    <h1 className="sm:text-5xl text-3xl title-font m-2 text-red-400 font-bold text-center" >
                         Challenges We Faced
                     </h1>
                     <div className="grid mx-[3rem]">
