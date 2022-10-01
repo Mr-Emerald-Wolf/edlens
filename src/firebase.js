@@ -1,15 +1,14 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-require('dotenv').config()
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "auth-test-413c8.firebaseapp.com",
-  projectId: "auth-test-413c8",
-  storageBucket: "auth-test-413c8.appspot.com",
-  messagingSenderId: "624248380951",
-  appId: "1:624248380951:web:89b1fea599c04363104652",
-  measurementId: "G-5EMLF4JF1G"
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_M_ID
 };
 
 
