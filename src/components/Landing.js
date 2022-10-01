@@ -30,7 +30,7 @@ export default function Landing() {
 
     return (
         <>
-            <section id='landing' className="flex  h-screen items-center px-6 lg:px-32 bg-slate-700 bg-dots justify-center ">
+            <section id='landing' className="flex  h-screen items-center px-6 lg:px-32 bg-slate-700 justify-center ">
                 <div className='hidden absolute w-1/5 h-3/4 bottom-0 left-0 bg-dots'> </div>
                 <main id='' className="w-full md:w-9/12 xl:w-8/12">
 
@@ -47,7 +47,7 @@ export default function Landing() {
                     </svg> */}
 
                     <svg
-                        className='absolute top-[25%] left-[65%]'
+                        className='absolute md:flex hidden top-[25%] left-[65%]'
                         width="30rem"
                         height="30rem"
                         viewBox="0 0 650 650"
