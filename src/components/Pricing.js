@@ -10,9 +10,9 @@ export default function Pricing() {
                         <h2 className="mb-4 lg:text-6xl  text-4xl tracking-tight font-bold  text-slate-700 md:mb-[3rem]">Designed for the modern classroom</h2>
                         <p className="mb-5 text-pale text-xl sm:text-2xl ">Focused on making AR</p>
                     </div>
-                    <div className="grid md:grid-cols-3 gap-5 p-[2rem] grid-rows">
+                    <div className="grid md:grid-cols-3 gap-5 p-[rem] grid-rows">
                         {/* <!-- Pricing Card --> */}
-                        <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-slate-700 rounded-lg shadow hover:shadow-lg xl:p-8 ">
+                        <div className="flex flex-col p-[3rem] mx-auto max-w-lg text-center text-gray-900 bg-slate-700 rounded-lg shadow hover:shadow-lg xl:p-8 ">
                             <h3 className="mb-4 text-4xl font-semibold text-red-400">Personal</h3>
                             <p className="font-light sm:text-lg text-pale">Best option for personal use {"&"} for your next project.</p>
                             <div className="flex justify-center items-baseline my-8">
