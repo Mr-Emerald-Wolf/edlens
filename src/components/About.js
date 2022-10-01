@@ -14,14 +14,14 @@ export default function About() {
           <div class="flex flex-col">
             {/* <!-- Notes --> */}
 
-            <div class="flex flex-col mt-8">
+            <div class="flex flex-col">
               {/* <!-- Meet the Team --> */}
               <div class="container max-w-7xl px-4">
                 {/* <!-- Section Header --> */}
                 <div class="flex flex-wrap justify-center text-center mb-24">
                   <div class="w-full lg:w-6/12 px-4">
                     {/* <!-- Header --> */}
-                    <h1 class="text-slate-700 text-5xl font-bold mb-6">
+                    <h1 class="text-slate-700 text-5xl font-bold mb-8">
                       Meet the Team
                     </h1>
 
