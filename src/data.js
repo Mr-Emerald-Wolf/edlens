@@ -13,7 +13,7 @@ export const tech = [
     },
     {
         Title:"Three.js",
-        Content:"Three.js allows the creation of graphical processing unit (GPU)-accelerated 3D animations using the JavaScript language as part of a website without relying on proprietary browser plugins. This is possible due to the advent of WebGL, a low-level graphics API created specifically for the web.High-level libraries such as Three.js or GLGE, SceneJS, PhiloGL, and many more make it possible to author complex 3D computer animations for display in the browser without the effort required for a traditional standalone application or a plugin.",
+        Content:"Three.js allows the creation of graphical processing unit (GPU)-accelerated 3D animations using the JavaScript language as part of a website without relying on proprietary browser plugins. This is possible due to the advent of WebGL, a low-level graphics API created specifically for the web.",
     },
     {
         Title:"MindAR.js",
@@ -21,11 +21,11 @@ export const tech = [
     },
     {
         Title:"Tailwind",
-        Content:"React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+        Content:"Tailwind CSS is a low-level framework. Meaning, unlike other CSS frameworks like Bootstrap and Materialize, Tailwind doesn't offer fully styled components like buttons, dropdowns, and navbars. Instead, it offers utility classes so you can create your own reusable components.",
     },
     {
         Title:"OCR",
-        Content:"React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+        Content:"OCR stands for Optical Character Recognition. It is a widespread technology to recognize text inside images, such as scanned documents and photos. OCR technology is used to convert virtually any kind of image containing written text (typed, handwritten, or printed) into machine-readable text data.",
     }
     
 ];
