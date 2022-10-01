@@ -5,7 +5,7 @@ export default function Pricing() {
         <>
             <section id='pricing' className="bg-red-400">
 
-                <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 grid content-center min-h-screen">
+                <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 grid content-center min-h-screen p-4 md:p-2">
                     <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
                         <h2 className="mb-4 text-4xl tracking-tight font-bold  text-slate-700 ">Designed for the modern classroom</h2>
                         <p className="mb-5 text-pale sm:text-xl ">Focused on making AR</p>

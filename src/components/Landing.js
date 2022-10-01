@@ -30,7 +30,7 @@ export default function Landing() {
 
     return (
         <>
-            <section id='landing' className="flex  h-screen items-center px-6 lg:px-32 bg-slate-700 justify-center ">
+            <section id='landing' className="flex  h-screen items-center px-6 lg:px-32 bg-slate-700 justify-center p-4 md:p-2">
                 <div className='hidden absolute w-1/5 h-3/4 bottom-0 left-0 bg-dots'> </div>
                 <main id='' className="w-full md:w-9/12 xl:w-8/12">
 

@@ -13,7 +13,7 @@ export default function Tech() {
   return (
     <>
       <section ref={ref} id='tech'>
-        <div className="grid content-center min-h-screen bg-slate-700 ">
+        <div className="grid content-center min-h-screen bg-slate-700 p-4 md:p-2">
           <div className="">
             <h1 style={{
               transform: isInView ? "none" : "translateX(-200px)",

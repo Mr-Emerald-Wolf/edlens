@@ -10,7 +10,7 @@ export default function AboutApp() {
     return (
         <>
             <section id='app' ref={ref}>
-                <div className="p-4 bg-red-400 min-h-screen grid content-center ">
+                <div className="bg-red-400 min-h-screen grid content-center p-4 md:p-2">
                     <div className="grid sm:grid-cols-2 m-2 grid-flow-row">
                         <div className="grid content-center">
                             <img style={{
