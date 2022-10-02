@@ -27,19 +27,6 @@ function Ocr(props) {
 
     doOCR();
 
-    useEffect(() => {
-        const script = document.createElement('script');
-
-        script.src = "../libs/mindar/mindar-image-three.prod.js"
-        script.async = true;
-
-        document.body.appendChild(script);
-
-        return () => {
-            document.body.removeChild(script);
-        }
-    }, ["../libs/mindar/mindar-image-three.prod.js"])
-
     document.addEventListener('DOMContentLoaded', () => {
         const initialize = async () => {
             const arButton = document.querySelector("#ar-button");
@@ -142,7 +129,7 @@ function Ocr(props) {
             <Helmet>
                 <script src="../libs/mindar/mindar-image-three.prod.js"></script>
             </Helmet>
-            <button id="ar-button">Start</button>
+                <button id="ar-button">Start</button>
         </>
     );
 }

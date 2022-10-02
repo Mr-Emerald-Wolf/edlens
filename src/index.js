@@ -13,6 +13,7 @@ import {
 import Cam from './components/Cam';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -20,6 +21,7 @@ root.render(
 
       <Route path="/" element={<App />} />
       <Route path='scan' element={<Cam  />} />
+     
 
     </Routes>
 
