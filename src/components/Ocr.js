@@ -5,6 +5,7 @@ import { GLTFLoader } from '../libs/three.js-r132/examples/jsm/loaders/GLTFLoade
 // import { ARButton } from './libs/three.js-r132/examples/jsm/webxr/ARButton.js'
 
 import '../index.css';
+import { Helmet } from 'react-helmet';
 
 function Ocr(props) {
 
@@ -26,7 +27,7 @@ function Ocr(props) {
 
     doOCR();
 
-    useEffect(()=>{
+    useEffect(() => {
         const script = document.createElement('script');
 
         script.src = "../libs/mindar/mindar-image-three.prod.js"
@@ -34,10 +35,10 @@ function Ocr(props) {
 
         document.body.appendChild(script);
 
-        return()=>{
+        return () => {
             document.body.removeChild(script);
         }
-    },["../libs/mindar/mindar-image-three.prod.js"])
+    }, ["../libs/mindar/mindar-image-three.prod.js"])
 
     document.addEventListener('DOMContentLoaded', () => {
         const initialize = async () => {
@@ -133,12 +134,15 @@ function Ocr(props) {
 
     });
 
-    
+
 
 
     return (
         <>
-            <button id="ar-button">Start</button>
+            <Helmet>
+                <script src="../libs/mindar/mindar-image-three.prod.js"></script>
+                <button id="ar-button">Start</button>
+            </Helmet>
         </>
     );
 }
