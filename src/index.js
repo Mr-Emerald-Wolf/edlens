@@ -4,12 +4,25 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import Ocr from './components/Ocr';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+    <Routes>
+
+      <Route path="/" element={<App />} />
+      <Route path="scan" element={<Ocr />} />
+
+    </Routes>
+
+  </BrowserRouter>
 );
 
 // If you want your app to work offline and load faster, you can change

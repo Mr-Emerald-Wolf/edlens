@@ -24,7 +24,7 @@ export default function Tech() {
             </h1>
             <div className="grid md:grid-cols-3 grid-rows gap-4 p-2 md:p-4 justify-items-center">
               {tech.map((tech) => (
-                <div key={tech} className="p-2">
+                <div key={tech.Title} className="p-2">
                   <motion.div style={{
                     scale: isInView ? 1 : 0,
                     opacity: isInView ? 1 : 0,

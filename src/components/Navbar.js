@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 
 
@@ -8,9 +9,9 @@ export default function Navbar({ fixed }) {
     <>
       <header className="bg-slate-800 z-50 top-0 md:sticky">
                     <div className="container flex justify-between mx-auto">
-                        <a rel="noopener noreferrer" href="#landing" aria-label="Back to homepage" className="flex items-center p-1 md:font-bold text-3xl text-red-500">
+                        <Link rel="noopener noreferrer" to="/" aria-label="Back to homepage" className="flex items-center p-1 md:font-bold text-3xl text-red-500">
                             EdLens
-                        </a>
+                        </Link>
                         <div className="flex flex-grow items-center justify-end"></div>       
                         <ul className="items-stretch hidden space-x-3 lg:flex">
                             <li className="flex">
