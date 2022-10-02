@@ -141,8 +141,8 @@ function Ocr(props) {
         <>
             <Helmet>
                 <script src="../libs/mindar/mindar-image-three.prod.js"></script>
-                <button id="ar-button">Start</button>
             </Helmet>
+            <button id="ar-button">Start</button>
         </>
     );
 }
