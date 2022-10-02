@@ -25,7 +25,7 @@ function Ocr(props) {
 
     return (
         <>
-        <p className={"Text: " + text}></p>
+        <p>{"Text: " + text}</p>
         </>
     );
 }
