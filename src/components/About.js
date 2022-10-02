@@ -1,10 +1,16 @@
-import React from 'react'
+import { useInView } from 'framer-motion';
+import React, { useRef } from 'react'
+import { motion } from 'framer-motion';
 
 
 export default function About() {
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true })
+
   return (
     <>
-      <section id='about' className="">
+      <section ref={ref} id='about' className="">
         {/* <!-- component --> */}
         {/* <!-- MDI Icons --> */}
         <link rel="stylesheet" alt="" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css" />
@@ -21,12 +27,15 @@ export default function About() {
                 <div className="flex flex-wrap justify-center text-center mb-24">
                   <div className="w-full lg:w-6/12 px-4">
                     {/* <!-- Header --> */}
-                    <h1 className="text-slate-700 lg:text-6xl  text-4xl font-bold mb-8">
+                    <motion.h1 style={{
+                      opacity: isInView ? 1 : 0,
+                      transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                    }} className="text-slate-700 lg:text-6xl  text-4xl font-bold mb-8">
                       Meet the Team
-                    </h1>
+                    </motion.h1>
 
                     {/* <!-- Description --> */}
-                    
+
                   </div>
                 </div>
 
@@ -37,12 +46,20 @@ export default function About() {
                     <div className="flex flex-col">
                       {/* <!-- Avatar --> */}
 
-                      <img alt ="" className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                      <motion.img style={{
+                        scale: isInView ? 1 : 0,
+                        opacity: isInView ? 1 : 0,
+                        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                      }} alt="" className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all "
                         src="https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?fit=clamp&w=400&h=400&q=80" />
 
 
                       {/* <!-- Details --> */}
-                      <div className="text-center mt-6">
+                      <motion.div style={{
+                        transform: isInView ? "none" : "translateY(-200px)",
+                        opacity: isInView ? 1 : 0,
+                        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                      }} className="text-center mt-6">
                         {/* <!-- Name --> */}
                         <h1 className="text-slate-700 text-xl font-bold mb-1">
                           Achintya Gupta
@@ -71,7 +88,7 @@ export default function About() {
                             <i className="mdi mdi-instagram text-orange-400 mx-auto mt-2"></i>
                           </p>
                         </div>
-                      </div>
+                      </motion.div>
                     </div>
                   </div>
 
@@ -80,12 +97,20 @@ export default function About() {
                     <div className="flex flex-col">
                       {/* <!-- Avatar --> */}
                       <p href="#" className="mx-auto">
-                        <img alt ="" className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                        <motion.img style={{
+                          scale: isInView ? 1 : 0,
+                          opacity: isInView ? 1 : 0,
+                          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                        }} alt="" className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                           src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80" />
                       </p>
 
                       {/* <!-- Details --> */}
-                      <div className="text-center mt-6">
+                      <motion.div style={{
+                        transform: isInView ? "none" : "translateY(-200px)",
+                        opacity: isInView ? 1 : 0,
+                        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                      }} className="text-center mt-6">
                         {/* <!-- Name --> */}
                         <h1 className="text-slate-700 text-xl font-bold mb-1">
                           Shivam Sharma
@@ -114,7 +139,7 @@ export default function About() {
                             <i className="mdi mdi-instagram text-orange-400 mx-auto mt-2"></i>
                           </p>
                         </div>
-                      </div>
+                      </motion.div>
                     </div>
                   </div>
 
@@ -123,12 +148,20 @@ export default function About() {
                     <div className="flex flex-col">
                       {/* <!-- Avatar --> */}
                       <p href="#" className="mx-auto">
-                        <img alt ="" className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                        <motion.img style={{
+                          scale: isInView ? 1 : 0,
+                          opacity: isInView ? 1 : 0,
+                          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                        }} alt="" className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                           src="https://images.unsplash.com/photo-1634193295627-1cdddf751ebf?fit=clamp&w=400&h=400&q=80" />
                       </p>
 
                       {/* <!-- Details --> */}
-                      <div className="text-center mt-6">
+                      <motion.div style={{
+                        transform: isInView ? "none" : "translateY(-200px)",
+                        opacity: isInView ? 1 : 0,
+                        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                      }} className="text-center mt-6">
                         {/* <!-- Name --> */}
                         <h1 className="text-slate-700 text-xl font-bold mb-1">
                           Mehul Rastogi
@@ -136,7 +169,7 @@ export default function About() {
 
                         {/* <!-- Title --> */}
                         <div className="text-gray-700 font-light mb-2">
-                          UI-UX {'&'} Front End 
+                          UI-UX {'&'} Front End
                         </div>
 
                         {/* <!-- Social Icons --> */}
@@ -157,7 +190,7 @@ export default function About() {
                             <i className="mdi mdi-instagram text-orange-400 mx-auto mt-2"></i>
                           </p>
                         </div>
-                      </div>
+                      </motion.div>
                     </div>
                   </div>
 
@@ -166,12 +199,20 @@ export default function About() {
                     <div className="flex flex-col">
                       {/* <!-- Avatar --> */}
                       <p href="#" className="mx-auto">
-                        <img alt ="" className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                          src="https://images.unsplash.com/photo-1635003913011-95971abba560?fit=clamp&w=400&h=400&q=80"/>
+                        <motion.img style={{
+                          scale: isInView ? 1 : 0,
+                          opacity: isInView ? 1 : 0,
+                          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                        }} alt="" className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                          src="https://images.unsplash.com/photo-1635003913011-95971abba560?fit=clamp&w=400&h=400&q=80" />
                       </p>
 
                       {/* <!-- Details --> */}
-                      <div className="text-center mt-6">
+                      <motion.div style={{
+                        transform: isInView ? "none" : "translateY(-200px)",
+                        opacity: isInView ? 1 : 0,
+                        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s"
+                      }} className="text-center mt-6">
                         {/* <!-- Name --> */}
                         <h1 className="text-slate-700 text-xl font-bold mb-1">
                           Siddharth Dave
@@ -179,7 +220,7 @@ export default function About() {
 
                         {/* <!-- Title --> */}
                         <div className="text-gray-700 font-light mb-2">
-                          Front End {"&"} AR Dev 
+                          Front End {"&"} AR Dev
                         </div>
 
                         {/* <!-- Social Icons --> */}
@@ -200,7 +241,7 @@ export default function About() {
                             <i className="mdi mdi-instagram text-orange-400 mx-auto mt-2"></i>
                           </p>
                         </div>
-                      </div>
+                      </motion.div>
                     </div>
                   </div>
                 </div>

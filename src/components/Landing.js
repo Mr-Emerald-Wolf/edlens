@@ -89,7 +89,7 @@ export default function Landing() {
                                 initial="hidden"
                                 animate="visible"
                                 transition={{
-                                    default: { duration: 3.75, ease: "easeInOut", delay: 2 },
+                                    default: { duration: 3.75, ease: "easeInOut", delay: 1 },
                                 }} width="68.12" height="116.673" rx="6.232" transform="translate(402.107 377.414)" strokeWidth="3" stroke="#f87171" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                             <motion.line variants={icon}
                                 initial="hidden"

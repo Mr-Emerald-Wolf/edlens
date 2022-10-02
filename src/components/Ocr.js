@@ -50,9 +50,9 @@ function Ocr(props) {
         const loader = new GLTFLoader();
 
         let ocrResult = "Duck"
-
+        console.log(ocrResult)
         switch (ocrResult) {
-            case 'DUCK ':
+            case 'DUCK':
             case 'Duck':
             case 'duck':
                 loader.load('./assets/models/Duck.gltf', function (gltf) {
