@@ -22,7 +22,7 @@ function App() {
       <Challenges />
       <Pricing />
       <About />
-
+      
     </>
   );
 }
