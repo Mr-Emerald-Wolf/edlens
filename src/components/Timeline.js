@@ -19,7 +19,7 @@ export default function RoadMap() {
               </div>
               <div className="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4 z-10">
                 <h3 className="mb-3 font-bold text-slate-700 text-2xl">Firebase for User Auth</h3>
-                <p className=" font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Implementing user login using Firebase to store previous search results. To store user data.</p>
+                <p className=" font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Implementing user login using Firebase. Using a database to store previous search results.</p>
               </div>
             </div>
             {/* <!-- right timeline --> */}
@@ -29,8 +29,8 @@ export default function RoadMap() {
                 <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
               </div>
               <div className="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4 z-10">
-                <h3 className="mb-3 font-bold text-slate-700 text-2xl">Storing more 3D models</h3>
-                <p className="font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3 className="mb-3 font-bold text-slate-700 text-2xl">Multi Language Support</h3>
+                <p className="font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">We would like to implement multi language support for OCR to include languages other than English.</p>
               </div>
             </div>
             {/* <!-- left timeline --> */}
@@ -40,8 +40,8 @@ export default function RoadMap() {
                 <h1 className="mx-auto text-white font-semibold text-lg">3</h1>
               </div>
               <div className="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4 z-10">
-                <h3 className="mb-3 font-bold text-slate-700 text-2xl">Multi Language Support</h3>
-                <p className=" font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3 className="mb-3 font-bold text-slate-700 text-2xl">AR Models</h3>
+                <p className=" font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Need to build a more comprehensive library of high quality 2D and 3D models. </p>
               </div>
             </div>
             {/* <!-- right timeline --> */}
@@ -51,8 +51,8 @@ export default function RoadMap() {
                 <h1 className="mx-auto font-semibold text-lg text-white">4</h1>
               </div>
               <div className="order-1 bg-red-400 rounded-lg shadow-xl w-full sm:w-5/12 px-6 py-4 z-10">
-                <h3 className="mb-3 font-bold text-slate-700 text-2xl">Training using AR</h3>
-                <p className="font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3 className="mb-3 font-bold text-slate-700 text-2xl">ML Model to Increase Accuracy</h3>
+                <p className="font-medium leading-snug tracking-wide text-slate-700 text-opacity-100">Implementing a mature computer vison ML model for better text detection accuracy in a wider range of lighting conditions</p>
               </div>
             </div>
           </div>

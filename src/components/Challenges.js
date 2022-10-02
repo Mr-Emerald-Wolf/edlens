@@ -11,27 +11,27 @@ export default function Challenges() {
                     <div className="grid m-3">
                         <div className="p-2 m-2">
                             <p className="text-red-400 text-2xl font-bold">
-                                Implementing 3D Models for rendering in our app
+                                OCR
                             </p>
                             <p className="text-pale text-xl">
-                                Most 3D models are behind a pay wall and to implement the limited models available in the given time period was a challenge.
+                            Implementation of OCR while streaming a video on the browser through the webcam, also the low accuracy of the OCR when it started working and OCR being unable to clearly discern words in not ideal conditions.
                             </p>
                         </div>
                         <div className="p-2 m-2">
                             <p className="text-red-400 text-2xl font-bold">
-                                Implementing live OCR to extract text from live video feed
+                                AR Models
                             </p>
                             <p className="text-pale text-xl">
-                                Implementation of the Google Vision API for live OCR to extract text from live video feed was very inconsistent. The API proved to be very buggy; so we had to make some work arounds.
+                                Most good AR models are behind a hefty paywall and often dont support the format required that would mean creating custom models from scratch.
                             </p>
                         </div>
 
                         <div className="p-2 m-2">
                             <p className="text-red-400 text-2xl font-bold">
-                                Implementing Markerless AR for the first time
+                                Markless AR and other libraries
                             </p>
                             <p className="text-pale text-xl">
-                                Bad tracking and World tracking only works in mobile. 
+                                General lack of simple documentation and tutorials to make a functioning product.
                             </p>
                         </div>
 

@@ -13,7 +13,7 @@ export const tech = [
     },
     {
         Title:"MindAR.js",
-        Content:"React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+        Content:"MindAR is an opensource web augmented reality library. It supports Image Tracking and Face Tracking. MindAR started with AFRAME integration. Starting from version 1.1.0. MindAR support direct integration with three.js. ",
     },
     {
         Title:"Tailwind",
