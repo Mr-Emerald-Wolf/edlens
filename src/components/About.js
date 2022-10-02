@@ -93,7 +93,7 @@ export default function About() {
 
                         {/* <!-- Title --> */}
                         <div className="text-gray-700 font-light mb-2">
-                          Full Stack
+                          Front End Lead
                         </div>
 
                         {/* <!-- Social Icons --> */}
