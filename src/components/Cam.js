@@ -1,11 +1,9 @@
 import Webcam from "react-webcam";
 import { React, useRef, useState, useCallback } from 'react';
-import { useNavigate } from "react-router-dom";
 import Ocr from "./Ocr";
 
 export default function Cam() {
 
-    const navigate = useNavigate();
 
     const webcamRef = useRef(null);
     const [imgSrc, setImgSrc] = useState(null);
